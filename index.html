@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Jogo da Velha </title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+		<script type="text/javascript" src="behavior.js"></script>
+    </head>
+
+    <body>
+    	<h1> Jogo da Velha Online</h1>
+		<div class="game">
+	    		<div class="row">
+	    			<button class="spot" id="b00" onclick="butClicked(0, 0)"> X </button>
+	    			<button class="spot" id="b01" onclick="butClicked(0, 1)"> X </button>
+	    			<button class="spot" id="b02" onclick="butClicked(0, 2)"> X </button>
+	
+	    		</div>
+	    		<div class="row">
+	    			<button class="spot" id="b10" onclick="butClicked(1, 0)"> O </button>
+	    			<button class="spot" id="b11" onclick="butClicked(1, 1)"> O </button>
+	    			<button class="spot" id="b12" onclick="butClicked(1, 2)"> O </button>
+	    		</div>
+	    		<div class="row">
+	    			<button class="spot" id="b20" onclick="butClicked(2, 0)"> X </button>
+	    			<button class="spot" id="b21" onclick="butClicked(2, 1)"> X </button>
+	    			<button class="spot" id="b22" onclick="butClicked(2, 2)"> X </button>
+    		</div>
+
+    		<h2 id="message"> Jogo da Velha Online </h2>
+    		<button class="spot reset" id="rb" onclick="startGame()"> Reiniciar  </button>
+
+
+    	</div>
+
+    </body>
+
+    <script type="text/javascript">
+    		startGame();
+    </script>
+ 
+</html>

@@ -1,0 +1,53 @@
+body{
+	background-color: black; 
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 48px;
+	margin-top: 100px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.game{
+	text-align: center;
+	margin-top: 20px;
+	/*background-color: white;*/
+	
+}
+
+.spot{
+	height: 80px;
+	width: 80px;
+	margin: 5px 5px 5px 5px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 20px;
+	border-color: white;
+	background-color: black;
+
+	color: white;
+	font-size: 60px;
+	align-content: center;
+}
+
+.reset{
+	height: 50px;
+	width: 260px;
+	font-size: 18px;
+	font-family: 'Bree Serif', serif;
+	background-color: white;
+	border-color: black;
+	color: black;
+	visibility: hidden;
+}
+
